@@ -43,10 +43,10 @@ public class YandexLoginTest extends BaseTest {
                 .typeLogin("tester.itstep")
                 .clickEnterButton()
                 .typePassword("TesterAQA31")
-                .clickEnterButton2();
+                .clickEnterButton2()
+                .displayedAvaPict();
 
         List<WebElement> avaPict = driver.findElements(By.xpath("//*[@class='UserID-Avatar-Image']"));
         Assert.assertTrue(avaPict.size() > 0, "Make sure that the user's avatar is displayed");
     }
-
 }
