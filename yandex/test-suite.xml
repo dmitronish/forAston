@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="YandexLogin Test Suite" parallel="methods" thread-count="1">
-    <test name="YandexLoginTest">
-        <classes>
-            <class name="YandexLoginTest" />
-        </classes>
-    </test>
-</suite>
