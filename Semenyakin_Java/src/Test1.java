@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
 public class Test1 {
-    public Test1() {
-    }
-
     public static void main(String[] args) {
         System.out.println("Введите число и нажмите Enter");
         Scanner scanner = new Scanner(System.in);
